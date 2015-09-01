@@ -12,7 +12,6 @@ var read = require('./routes/read');
 var app = express();
 var expressLayouts = require('express-ejs-layouts');
 app.use(expressLayouts);
-app.set('layout', 'myLayout');
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
